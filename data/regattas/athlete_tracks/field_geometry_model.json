@@ -1,0 +1,1102 @@
+{
+  "blue_r1": {
+    "race_key": "blue_r1",
+    "track_count": 2,
+    "estimated_twd_deg": 169.8,
+    "wind_oscillation_deg": {
+      "left": -163.1,
+      "right": 94.1
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8711967,
+        "lon": 10.8518534
+      },
+      "committee": {
+        "lat": 45.8711967,
+        "lon": 10.8534784
+      },
+      "center": {
+        "lat": 45.868534,
+        "lon": 10.8526152
+      }
+    },
+    "finish_center": {
+      "lat": 45.8618446,
+      "lon": 10.8537237
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8545726,
+        "lon": 10.8559188
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8685363,
+        "lon": 10.8549008
+      },
+      "offset_estimate": {
+        "lat": 45.8545726,
+        "lon": 10.8613367
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8534851,
+      "lat_max": 45.8727379,
+      "lon_min": 10.8434629,
+      "lon_max": 10.8691282,
+      "width_m": 1173.6,
+      "height_m": 1292.5
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "blue_r2": {
+    "race_key": "blue_r2",
+    "track_count": 2,
+    "estimated_twd_deg": 184.2,
+    "wind_oscillation_deg": {
+      "left": -160.7,
+      "right": 153.4
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8616219,
+        "lon": 10.8547401
+      },
+      "committee": {
+        "lat": 45.8616219,
+        "lon": 10.8567104
+      },
+      "center": {
+        "lat": 45.8616171,
+        "lon": 10.8557739
+      }
+    },
+    "finish_center": {
+      "lat": 45.8789707,
+      "lon": 10.8563358
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8532916,
+        "lon": 10.855826
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8774682,
+        "lon": 10.8560142
+      },
+      "offset_estimate": {
+        "lat": 45.8532916,
+        "lon": 10.8608685
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8519669,
+      "lat_max": 45.8831367,
+      "lon_min": 10.8447371,
+      "lon_max": 10.8681297,
+      "width_m": 1146.4,
+      "height_m": 2214.6
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "blue_r3": {
+    "race_key": "blue_r3",
+    "track_count": 2,
+    "estimated_twd_deg": 150.1,
+    "wind_oscillation_deg": {
+      "left": -141.8,
+      "right": 151.5
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8701248,
+        "lon": 10.8458319
+      },
+      "committee": {
+        "lat": 45.8701248,
+        "lon": 10.8500767
+      },
+      "center": {
+        "lat": 45.8700418,
+        "lon": 10.8479718
+      }
+    },
+    "finish_center": {
+      "lat": 45.8697229,
+      "lon": 10.8508369
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8569082,
+        "lon": 10.856243
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8730169,
+        "lon": 10.8526836
+      },
+      "offset_estimate": {
+        "lat": 45.8569082,
+        "lon": 10.8617964
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8556442,
+      "lat_max": 45.877861,
+      "lon_min": 10.8397903,
+      "lon_max": 10.862793,
+      "width_m": 1243.5,
+      "height_m": 1407.0
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "blue_r4": {
+    "race_key": "blue_r4",
+    "track_count": 2,
+    "estimated_twd_deg": 173.0,
+    "wind_oscillation_deg": {
+      "left": -162.2,
+      "right": 153.7
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8698196,
+        "lon": 10.8480501
+      },
+      "committee": {
+        "lat": 45.8698196,
+        "lon": 10.8505001
+      },
+      "center": {
+        "lat": 45.8697011,
+        "lon": 10.8492395
+      }
+    },
+    "finish_center": {
+      "lat": 45.8778898,
+      "lon": 10.8556513
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8556942,
+        "lon": 10.8531553
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8758409,
+        "lon": 10.8564047
+      },
+      "offset_estimate": {
+        "lat": 45.8556942,
+        "lon": 10.8584919
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8546829,
+      "lat_max": 45.8821068,
+      "lon_min": 10.8397865,
+      "lon_max": 10.8668337,
+      "width_m": 1097.8,
+      "height_m": 1758.2
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "gold_r1": {
+    "race_key": "gold_r1",
+    "track_count": 5,
+    "estimated_twd_deg": 166.1,
+    "wind_oscillation_deg": {
+      "left": -160.8,
+      "right": 96.0
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8672047,
+        "lon": 10.8488216
+      },
+      "committee": {
+        "lat": 45.8672047,
+        "lon": 10.8510084
+      },
+      "center": {
+        "lat": 45.8671707,
+        "lon": 10.8500488
+      }
+    },
+    "finish_center": {
+      "lat": 45.867376,
+      "lon": 10.8513362
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8526856,
+        "lon": 10.855717
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.868284,
+        "lon": 10.8579698
+      },
+      "offset_estimate": {
+        "lat": 45.8526856,
+        "lon": 10.8600483
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8520432,
+      "lat_max": 45.868824,
+      "lon_min": 10.8421803,
+      "lon_max": 10.8676519,
+      "width_m": 1133.0,
+      "height_m": 1623.7
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "gold_r2": {
+    "race_key": "gold_r2",
+    "track_count": 5,
+    "estimated_twd_deg": 174.3,
+    "wind_oscillation_deg": {
+      "left": -160.7,
+      "right": 144.9
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8671532,
+        "lon": 10.8494263
+      },
+      "committee": {
+        "lat": 45.8671532,
+        "lon": 10.8513613
+      },
+      "center": {
+        "lat": 45.8671198,
+        "lon": 10.850418
+      }
+    },
+    "finish_center": {
+      "lat": 45.8742224,
+      "lon": 10.8547134
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8547971,
+        "lon": 10.8537583
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8834361,
+        "lon": 10.844062
+      },
+      "offset_estimate": {
+        "lat": 45.8547971,
+        "lon": 10.8602934
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8536072,
+      "lat_max": 45.8835602,
+      "lon_min": 10.8402205,
+      "lon_max": 10.8690348,
+      "width_m": 1541.6,
+      "height_m": 3042.2
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "gold_r3": {
+    "race_key": "gold_r3",
+    "track_count": 4,
+    "estimated_twd_deg": 174.0,
+    "wind_oscillation_deg": {
+      "left": -163.4,
+      "right": 102.6
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8705788,
+        "lon": 10.8476648
+      },
+      "committee": {
+        "lat": 45.8705788,
+        "lon": 10.8524904
+      },
+      "center": {
+        "lat": 45.8706451,
+        "lon": 10.8503378
+      }
+    },
+    "finish_center": {
+      "lat": 45.867941,
+      "lon": 10.8556623
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8552186,
+        "lon": 10.8553872
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8695277,
+        "lon": 10.8535495
+      },
+      "offset_estimate": {
+        "lat": 45.8552186,
+        "lon": 10.8601818
+      }
+    },
+    "bounds": {
+      "lat_min": 45.85466,
+      "lat_max": 45.8741455,
+      "lon_min": 10.8398466,
+      "lon_max": 10.8698263,
+      "width_m": 1420.9,
+      "height_m": 1344.2
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "gold_r4": {
+    "race_key": "gold_r4",
+    "track_count": 5,
+    "estimated_twd_deg": 170.9,
+    "wind_oscillation_deg": {
+      "left": -161.2,
+      "right": 121.1
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8674889,
+        "lon": 10.8503437
+      },
+      "committee": {
+        "lat": 45.8674889,
+        "lon": 10.8532734
+      },
+      "center": {
+        "lat": 45.8675954,
+        "lon": 10.8518492
+      }
+    },
+    "finish_center": {
+      "lat": 45.8702324,
+      "lon": 10.8562295
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8532516,
+        "lon": 10.8544374
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8694564,
+        "lon": 10.856654
+      },
+      "offset_estimate": {
+        "lat": 45.8532516,
+        "lon": 10.8591204
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8526726,
+      "lat_max": 45.871994,
+      "lon_min": 10.8421764,
+      "lon_max": 10.870203,
+      "width_m": 1516.7,
+      "height_m": 1529.2
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "green_r1": {
+    "race_key": "green_r1",
+    "track_count": 3,
+    "estimated_twd_deg": 171.8,
+    "wind_oscillation_deg": {
+      "left": -152.1,
+      "right": 103.9
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8646965,
+        "lon": 10.8473816
+      },
+      "committee": {
+        "lat": 45.8646965,
+        "lon": 10.8600779
+      },
+      "center": {
+        "lat": 45.8671224,
+        "lon": 10.8523686
+      }
+    },
+    "finish_center": {
+      "lat": 45.8621454,
+      "lon": 10.8528786
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8543961,
+        "lon": 10.853084
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8682241,
+        "lon": 10.8550599
+      },
+      "offset_estimate": {
+        "lat": 45.8543961,
+        "lon": 10.8576117
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8533859,
+      "lat_max": 45.8739624,
+      "lon_min": 10.8439598,
+      "lon_max": 10.863307,
+      "width_m": 959.5,
+      "height_m": 1242.8
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "green_r2": {
+    "race_key": "green_r2",
+    "track_count": 3,
+    "estimated_twd_deg": 187.5,
+    "wind_oscillation_deg": {
+      "left": -161.8,
+      "right": 159.1
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8618546,
+        "lon": 10.8515635
+      },
+      "committee": {
+        "lat": 45.8618546,
+        "lon": 10.8554401
+      },
+      "center": {
+        "lat": 45.8618727,
+        "lon": 10.8538184
+      }
+    },
+    "finish_center": {
+      "lat": 45.8801984,
+      "lon": 10.8521892
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8527139,
+        "lon": 10.8529857
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8787342,
+        "lon": 10.8505971
+      },
+      "offset_estimate": {
+        "lat": 45.8527139,
+        "lon": 10.8566999
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8519096,
+      "lat_max": 45.8831444,
+      "lon_min": 10.8445129,
+      "lon_max": 10.8672953,
+      "width_m": 1071.0,
+      "height_m": 2325.8
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "green_r3": {
+    "race_key": "green_r3",
+    "track_count": 1,
+    "estimated_twd_deg": 178.4,
+    "wind_oscillation_deg": {
+      "left": -157.2,
+      "right": 161.4
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8692932,
+        "lon": 10.8474197
+      },
+      "committee": {
+        "lat": 45.8692932,
+        "lon": 10.847578
+      },
+      "center": {
+        "lat": 45.8692979,
+        "lon": 10.847508
+      }
+    },
+    "finish_center": {
+      "lat": 45.8703658,
+      "lon": 10.846898
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8559387,
+        "lon": 10.8503357
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8705209,
+        "lon": 10.8502727
+      },
+      "offset_estimate": {
+        "lat": 45.8559387,
+        "lon": 10.8536568
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8551064,
+      "lat_max": 45.8707809,
+      "lon_min": 10.8416986,
+      "lon_max": 10.8594313,
+      "width_m": 1126.7,
+      "height_m": 1529.2
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "green_r4": {
+    "race_key": "green_r4",
+    "track_count": 1,
+    "estimated_twd_deg": 176.4,
+    "wind_oscillation_deg": {
+      "left": -162.0,
+      "right": 158.9
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8699722,
+        "lon": 10.8464584
+      },
+      "committee": {
+        "lat": 45.8699722,
+        "lon": 10.8471537
+      },
+      "center": {
+        "lat": 45.8700261,
+        "lon": 10.8468771
+      }
+    },
+    "finish_center": {
+      "lat": 45.8748404,
+      "lon": 10.8476223
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8551513,
+        "lon": 10.8501663
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8720875,
+        "lon": 10.8496214
+      },
+      "offset_estimate": {
+        "lat": 45.8551513,
+        "lon": 10.8529081
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8546715,
+      "lat_max": 45.8757744,
+      "lon_min": 10.8412046,
+      "lon_max": 10.8589354,
+      "width_m": 1075.3,
+      "height_m": 1601.3
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "red_r3": {
+    "race_key": "red_r3",
+    "track_count": 1,
+    "estimated_twd_deg": 184.8,
+    "wind_oscillation_deg": {
+      "left": -142.3,
+      "right": 161.5
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8694687,
+        "lon": 10.8485136
+      },
+      "committee": {
+        "lat": 45.8694687,
+        "lon": 10.8489904
+      },
+      "center": {
+        "lat": 45.8694448,
+        "lon": 10.8487471
+      }
+    },
+    "finish_center": {
+      "lat": 45.8714937,
+      "lon": 10.8538457
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8563333,
+        "lon": 10.8506599
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8712499,
+        "lon": 10.8543042
+      },
+      "offset_estimate": {
+        "lat": 45.8563333,
+        "lon": 10.8533688
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8559113,
+      "lat_max": 45.8715782,
+      "lon_min": 10.8419466,
+      "lon_max": 10.8600264,
+      "width_m": 1098.5,
+      "height_m": 1550.8
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "red_r4": {
+    "race_key": "red_r4",
+    "track_count": 1,
+    "estimated_twd_deg": 178.9,
+    "wind_oscillation_deg": {
+      "left": -149.1,
+      "right": 159.8
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8710251,
+        "lon": 10.8516998
+      },
+      "committee": {
+        "lat": 45.8710251,
+        "lon": 10.8530617
+      },
+      "center": {
+        "lat": 45.8710176,
+        "lon": 10.8523823
+      }
+    },
+    "finish_center": {
+      "lat": 45.8729674,
+      "lon": 10.8497422
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8551602,
+        "lon": 10.8513092
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8715356,
+        "lon": 10.8507612
+      },
+      "offset_estimate": {
+        "lat": 45.8551602,
+        "lon": 10.8558302
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8546333,
+      "lat_max": 45.873848,
+      "lon_min": 10.8413763,
+      "lon_max": 10.8589821,
+      "width_m": 1138.3,
+      "height_m": 1657.7
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "silver_r1": {
+    "race_key": "silver_r1",
+    "track_count": 2,
+    "estimated_twd_deg": 163.6,
+    "wind_oscillation_deg": {
+      "left": -155.7,
+      "right": 101.6
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8684387,
+        "lon": 10.8500881
+      },
+      "committee": {
+        "lat": 45.8684387,
+        "lon": 10.8505154
+      },
+      "center": {
+        "lat": 45.8680155,
+        "lon": 10.8502772
+      }
+    },
+    "finish_center": {
+      "lat": 45.8678872,
+      "lon": 10.8522861
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.853011,
+        "lon": 10.8567125
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8684161,
+        "lon": 10.8524524
+      },
+      "offset_estimate": {
+        "lat": 45.853011,
+        "lon": 10.8604584
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8520699,
+      "lat_max": 45.8688202,
+      "lon_min": 10.8443203,
+      "lon_max": 10.8690033,
+      "width_m": 1168.2,
+      "height_m": 1565.2
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "silver_r2": {
+    "race_key": "silver_r2",
+    "track_count": 2,
+    "estimated_twd_deg": 170.9,
+    "wind_oscillation_deg": {
+      "left": -162.7,
+      "right": 118.3
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8679905,
+        "lon": 10.8513203
+      },
+      "committee": {
+        "lat": 45.8679905,
+        "lon": 10.8518171
+      },
+      "center": {
+        "lat": 45.8679964,
+        "lon": 10.8515427
+      }
+    },
+    "finish_center": {
+      "lat": 45.8748166,
+      "lon": 10.8675263
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8548679,
+        "lon": 10.8541104
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8744178,
+        "lon": 10.866444
+      },
+      "offset_estimate": {
+        "lat": 45.8548679,
+        "lon": 10.8608131
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8536835,
+      "lat_max": 45.875145,
+      "lon_min": 10.8442535,
+      "lon_max": 10.8682404,
+      "width_m": 1280.9,
+      "height_m": 1845.6
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "silver_r3": {
+    "race_key": "silver_r3",
+    "track_count": 2,
+    "estimated_twd_deg": 173.5,
+    "wind_oscillation_deg": {
+      "left": -154.0,
+      "right": 107.9
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8712215,
+        "lon": 10.8488865
+      },
+      "committee": {
+        "lat": 45.8712215,
+        "lon": 10.8689804
+      },
+      "center": {
+        "lat": 45.871172,
+        "lon": 10.8589864
+      }
+    },
+    "finish_center": {
+      "lat": 45.8709609,
+      "lon": 10.8608474
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8558253,
+        "lon": 10.8572235
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.874589,
+        "lon": 10.8689986
+      },
+      "offset_estimate": {
+        "lat": 45.8558253,
+        "lon": 10.8617935
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8551254,
+      "lat_max": 45.8745918,
+      "lon_min": 10.8488102,
+      "lon_max": 10.86905,
+      "width_m": 1392.4,
+      "height_m": 1973.3
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "silver_r4": {
+    "race_key": "silver_r4",
+    "track_count": 2,
+    "estimated_twd_deg": 179.1,
+    "wind_oscillation_deg": {
+      "left": -158.6,
+      "right": 107.3
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8712711,
+        "lon": 10.8520432
+      },
+      "committee": {
+        "lat": 45.8712711,
+        "lon": 10.8690386
+      },
+      "center": {
+        "lat": 45.8711323,
+        "lon": 10.8606687
+      }
+    },
+    "finish_center": {
+      "lat": 45.8741644,
+      "lon": 10.8666673
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8545927,
+        "lon": 10.8584171
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8745799,
+        "lon": 10.8690723
+      },
+      "offset_estimate": {
+        "lat": 45.8545927,
+        "lon": 10.8624649
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8527985,
+      "lat_max": 45.8745918,
+      "lon_min": 10.8490763,
+      "lon_max": 10.8691635,
+      "width_m": 1387.4,
+      "height_m": 2037.3
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "yellow_r1": {
+    "race_key": "yellow_r1",
+    "track_count": 2,
+    "estimated_twd_deg": 179.5,
+    "wind_oscillation_deg": {
+      "left": -157.3,
+      "right": 158.6
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8741837,
+        "lon": 10.8489914
+      },
+      "committee": {
+        "lat": 45.8741837,
+        "lon": 10.8645163
+      },
+      "center": {
+        "lat": 45.873897,
+        "lon": 10.8569089
+      }
+    },
+    "finish_center": {
+      "lat": 45.8647109,
+      "lon": 10.8516804
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8544141,
+        "lon": 10.8558594
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8739032,
+        "lon": 10.8608737
+      },
+      "offset_estimate": {
+        "lat": 45.8544141,
+        "lon": 10.8613863
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8533974,
+      "lat_max": 45.8747978,
+      "lon_min": 10.8444967,
+      "lon_max": 10.8688135,
+      "width_m": 1240.2,
+      "height_m": 1768.0
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "yellow_r2": {
+    "race_key": "yellow_r2",
+    "track_count": 2,
+    "estimated_twd_deg": 168.4,
+    "wind_oscillation_deg": {
+      "left": -158.0,
+      "right": 154.3
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8637486,
+        "lon": 10.8503351
+      },
+      "committee": {
+        "lat": 45.8637486,
+        "lon": 10.8516102
+      },
+      "center": {
+        "lat": 45.8638605,
+        "lon": 10.8511109
+      }
+    },
+    "finish_center": {
+      "lat": 45.8791611,
+      "lon": 10.8568249
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8539048,
+        "lon": 10.8564174
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8834663,
+        "lon": 10.8440287
+      },
+      "offset_estimate": {
+        "lat": 45.8539048,
+        "lon": 10.8609018
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8526154,
+      "lat_max": 45.883522,
+      "lon_min": 10.842597,
+      "lon_max": 10.8697233,
+      "width_m": 1860.5,
+      "height_m": 3155.0
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "yellow_r3": {
+    "race_key": "yellow_r3",
+    "track_count": 3,
+    "estimated_twd_deg": 169.6,
+    "wind_oscillation_deg": {
+      "left": -161.7,
+      "right": 161.1
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8701744,
+        "lon": 10.8488388
+      },
+      "committee": {
+        "lat": 45.8701744,
+        "lon": 10.8557434
+      },
+      "center": {
+        "lat": 45.8701385,
+        "lon": 10.8519357
+      }
+    },
+    "finish_center": {
+      "lat": 45.8710364,
+      "lon": 10.8521
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8570046,
+        "lon": 10.8561666
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8709965,
+        "lon": 10.8511908
+      },
+      "offset_estimate": {
+        "lat": 45.8570046,
+        "lon": 10.8617163
+      }
+    },
+    "bounds": {
+      "lat_min": 45.855629,
+      "lat_max": 45.8733978,
+      "lon_min": 10.842433,
+      "lon_max": 10.8655663,
+      "width_m": 1204.0,
+      "height_m": 1357.8
+    },
+    "quality": "estimated_from_gpx_cluster"
+  },
+  "yellow_r4": {
+    "race_key": "yellow_r4",
+    "track_count": 2,
+    "estimated_twd_deg": 172.5,
+    "wind_oscillation_deg": {
+      "left": -156.2,
+      "right": 148.0
+    },
+    "start_line": {
+      "pin": {
+        "lat": 45.8703709,
+        "lon": 10.8472166
+      },
+      "committee": {
+        "lat": 45.8703709,
+        "lon": 10.8493299
+      },
+      "center": {
+        "lat": 45.8704336,
+        "lon": 10.8482332
+      }
+    },
+    "finish_center": {
+      "lat": 45.8747066,
+      "lon": 10.8569813
+    },
+    "marks": {
+      "windward_estimate": {
+        "lat": 45.8555435,
+        "lon": 10.8528444
+      },
+      "leeward_gate_estimate": {
+        "lat": 45.8728751,
+        "lon": 10.8550198
+      },
+      "offset_estimate": {
+        "lat": 45.8555435,
+        "lon": 10.8581352
+      }
+    },
+    "bounds": {
+      "lat_min": 45.8544884,
+      "lat_max": 45.8756218,
+      "lon_min": 10.8399,
+      "lon_max": 10.8660545,
+      "width_m": 1241.0,
+      "height_m": 1553.8
+    },
+    "quality": "estimated_from_gpx_cluster"
+  }
+}

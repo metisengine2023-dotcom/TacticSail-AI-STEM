@@ -1,0 +1,149 @@
+{
+  "name": "Area B",
+  "area": "B",
+  "focus": "Only Area B is used by the simulator",
+  "screenshot_basis": {
+    "source": "MetaSail top-down screenshot",
+    "track_style": "2D top view",
+    "tack_side": "left",
+    "decision_logic": "Start from the screenshot, read the track, keep the base tactic stable, and adjust only small left/right pressure shifts."
+  },
+  "wind_gradient": {
+    "far_right": "medium_with_shore_risk",
+    "right": "soft_lift",
+    "center": "medium",
+    "left": "medium_or_small_pocket",
+    "far_left": "variable"
+  },
+  "shore_effects": {
+    "too_close_right_shore": "shore_risk (buono possibile ma non bisogna esagerare sotto costa)",
+    "too_close_left_shore": "variable_wind (zona oscillante sotto costa veronese)"
+  },
+  "wind_features": {
+    "sponda_sinistra_veronese_malcesine": "Buono di pressione (+2/3 nodi) e buono di rotazione (lift per chi sale mure a dritta avvicinandosi a terra)",
+    "centro_lago_canale": "Zona oscillante con alternanza di piccoli buoni e scarsi (variazioni di 5-10 gradi)",
+    "sponda_destra_bresciana_limone": "Zona di scarso per via del cono d'ombra delle montagne, con l'eccezione dello scazzetto a destra (salto improvviso favorevole mure a sinistra molto vicino a terra)"
+  },
+  "reference_points": {
+    "start_area": null,
+    "gate_area": null,
+    "layline_area": null
+  },
+  "course_model": {
+    "active_layout": "outer_course",
+    "supported_layouts": [
+      "outer_course",
+      "inner_course"
+    ],
+    "leg_sequence_outer": [
+      "start between ALFA RC and ALFA PIN",
+      "ALFA 1 first upwind mark",
+      "ALFA 2 reach mark",
+      "ALFA 3P lower pin / left gate from sailor perspective",
+      "ALFA 2 second upwind mark",
+      "ALFA 3P downwind left gate from sailor perspective",
+      "finish at ALFA FINISH line"
+    ],
+    "gate_preferences": {
+      "inner_layout": "right_gate_from_screenshot",
+      "normal_outer_layout": "left_gate_preferred",
+      "right_side_pressure_case": "right_gate_allowed"
+    }
+  },
+  "tactical_base": {
+    "upwind_pattern": [
+      "start",
+      "tack immediately to port tack (mure a sinistra)",
+      "sail straight to the layline (andare dritti)",
+      "reach layline",
+      "tack to starboard tack (mure a dritta)",
+      "close to mark"
+    ],
+    "maneuver_style": [
+      "tacks",
+      "gybes",
+      "speed preservation"
+    ],
+    "base_rule": "The base tactic changes little; only the start choice and micro-positioning shift with wind quality."
+  },
+  "tactical_variants": [
+    {
+      "name": "good_wind_left_shift",
+      "trigger": "Wind is good and stronger slightly on the left",
+      "action": "Bias the start and the first upwind slightly left while keeping speed"
+    },
+    {
+      "name": "good_wind_right_shift",
+      "trigger": "Wind is good and stronger slightly on the right",
+      "action": "Bias the start and the first upwind slightly right only if the gain exceeds the extra distance"
+    },
+    {
+      "name": "poor_wind_safe_start",
+      "trigger": "Wind is weak or unstable",
+      "action": "Choose the safer start, protect speed, and avoid unnecessary early maneuvers"
+    }
+  ],
+  "bot_roster": [
+    {
+      "bot_code": "BOT_01",
+      "bot_name": "Paolo",
+      "preferred_side": "right",
+      "avg_speed": 6.01,
+      "avg_vmg": 4.005
+    },
+    {
+      "bot_code": "BOT_02",
+      "bot_name": "Filippo",
+      "preferred_side": "right",
+      "avg_speed": 6.105,
+      "avg_vmg": 3.967
+    },
+    {
+      "bot_code": "BOT_03",
+      "bot_name": "Enrico",
+      "preferred_side": "right",
+      "avg_speed": 6.041,
+      "avg_vmg": 3.92
+    },
+    {
+      "bot_code": "BOT_04",
+      "bot_name": "Giuseppe",
+      "preferred_side": "left",
+      "avg_speed": 6.036,
+      "avg_vmg": 4.029
+    },
+    {
+      "bot_code": "BOT_05",
+      "bot_name": "Emanuele",
+      "preferred_side": "left",
+      "avg_speed": 6.029,
+      "avg_vmg": 4.027
+    },
+    {
+      "bot_code": "BOT_06",
+      "bot_name": "Elia",
+      "preferred_side": "right",
+      "avg_speed": 6.256,
+      "avg_vmg": 3.908
+    },
+    {
+      "bot_code": "BOT_07",
+      "bot_name": "Simeon",
+      "preferred_side": "left",
+      "avg_speed": 6.076,
+      "avg_vmg": 4.014
+    }
+  ],
+  "notes": [
+    "Right side usually has the soft lift in this version.",
+    "Left side can be good only in small pockets, not as a huge permanent gain.",
+    "Wind shifts inside one race must remain small and readable.",
+    "Boat heading style differences should stay around five degrees maximum.",
+    "The model must compare speed gain against layline distance.",
+    "The first upwind is based on screenshot reading and small tactical adjustments only.",
+    "The model should simulate tacks and gybes, not just choose a button.",
+    "The outer course is the main course model for this version.",
+    "The inner layout keeps the same logic but rounds the right gate as seen in the screenshot.",
+    "Unused marks are removed from the active course."
+  ]
+}

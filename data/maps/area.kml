@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="area_regata" id="area_regata">
+	<SimpleField name="fid" type="float"></SimpleField>
+</Schema>
+<Folder><name>area_regata</name>
+  <Placemark id="area_regata.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#area_regata">
+		<SimpleData name="fid">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>10.8234861108701,45.835056703243 10.8609571603673,45.8279953981493 10.8683543578409,45.8532550473553 10.8311431630558,45.8607836553304 10.8234861108701,45.835056703243</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

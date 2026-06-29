@@ -1,0 +1,199 @@
+{
+  "bot_code": "BOT_07",
+  "bot_name": "Simeon",
+  "area": "B",
+  "examples_count": 105,
+  "preferred_side": "left",
+  "metrics": {
+    "avg_speed": 6.08,
+    "avg_vmg": 4.01,
+    "avg_distance_pct": 117.1,
+    "avg_rt_pct": 45.9,
+    "avg_lt_pct": 54.1,
+    "top_vmg_kn": 9.5,
+    "top_vmc_kn": 9.5
+  },
+  "leg_metrics": [
+    {
+      "leg": 1,
+      "race": 4,
+      "mode": "upwind",
+      "classifica": 8,
+      "vmg_medio_kn": 3.18,
+      "top_vmg_kn": 6.1,
+      "velocita_media_kn": 4.82,
+      "velocita_max_kn": 6.9,
+      "distanza_pct": 148,
+      "percorso_effettivo_m": 1681,
+      "lunghezza_gamba_m": 1135,
+      "corso_deg": 187
+    },
+    {
+      "leg": 2,
+      "race": 4,
+      "mode": "reach",
+      "classifica": 10,
+      "vmg_medio_kn": 5.91,
+      "top_vmg_kn": 8.25,
+      "velocita_media_kn": 6.28,
+      "velocita_max_kn": 9.0,
+      "distanza_pct": 109,
+      "percorso_effettivo_m": 1147,
+      "lunghezza_gamba_m": 1052,
+      "corso_deg": 7
+    },
+    {
+      "leg": 3,
+      "race": 4,
+      "mode": "run",
+      "classifica": 10,
+      "vmg_medio_kn": 3.2,
+      "top_vmg_kn": 5.4,
+      "velocita_media_kn": 4.78,
+      "velocita_max_kn": 6.7,
+      "distanza_pct": 145,
+      "percorso_effettivo_m": 1528,
+      "lunghezza_gamba_m": 1054,
+      "corso_deg": 187
+    },
+    {
+      "leg": 4,
+      "race": 4,
+      "mode": "upwind",
+      "classifica": 8,
+      "vmg_medio_kn": 2.28,
+      "top_vmg_kn": 5.3,
+      "velocita_media_kn": 8.44,
+      "velocita_max_kn": 9.8,
+      "distanza_pct": 105,
+      "percorso_effettivo_m": 847,
+      "lunghezza_gamba_m": 807,
+      "corso_deg": 78
+    },
+    {
+      "leg": 5,
+      "race": 4,
+      "mode": "run",
+      "classifica": 9,
+      "vmg_medio_kn": 5.97,
+      "top_vmg_kn": 9.5,
+      "velocita_media_kn": 6.11,
+      "velocita_max_kn": 9.6,
+      "distanza_pct": 102,
+      "percorso_effettivo_m": 1276,
+      "lunghezza_gamba_m": 1251,
+      "corso_deg": 6
+    },
+    {
+      "leg": 6,
+      "race": 4,
+      "mode": "finish",
+      "classifica": 9,
+      "vmg_medio_kn": 2.55,
+      "top_vmg_kn": 5.38,
+      "velocita_media_kn": 6.38,
+      "velocita_max_kn": 8.0,
+      "distanza_pct": 100,
+      "percorso_effettivo_m": 274,
+      "lunghezza_gamba_m": 274,
+      "corso_deg": 303
+    }
+  ],
+  "tactical_tags": [
+    "left-side-bias",
+    "solid-run-vmg",
+    "consistent-mid-fleet"
+  ],
+  "notes": [
+    "Race 4 competitor - same fleet as Elia (BOT_06)",
+    "Left-side preference differentiates from Elia who prefers right",
+    "Slightly better upwind VMG than Elia (3.18 vs 3.13 kn) but similar boat speed",
+    "Strong run VMG on leg 5 (5.97 kn) with very high top speed (9.5 kn)",
+    "Consistent finish: 100% distanza_pct on leg 6 - precise layline judgment",
+    "Smoother rank progression than Elia across legs (8→10→10→8→9→9)"
+  ],
+  "source_examples": [
+    {
+      "leg": 1,
+      "race": 4,
+      "scenario": "area b bolina",
+      "avg_speed": 4.82,
+      "vmg": 3.18,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 2,
+      "race": 4,
+      "scenario": "area b reach",
+      "avg_speed": 6.28,
+      "vmg": 5.91,
+      "rt_pct": 45,
+      "lt_pct": 55
+    },
+    {
+      "leg": 3,
+      "race": 4,
+      "scenario": "area b poppa",
+      "avg_speed": 4.78,
+      "vmg": 3.2,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 4,
+      "race": 4,
+      "scenario": "area b bolina",
+      "avg_speed": 8.44,
+      "vmg": 2.28,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 5,
+      "race": 4,
+      "scenario": "area b poppa discesa",
+      "avg_speed": 6.11,
+      "vmg": 5.97,
+      "rt_pct": 45,
+      "lt_pct": 55
+    },
+    {
+      "leg": 6,
+      "race": 4,
+      "scenario": "area b reach arrivo",
+      "avg_speed": 6.38,
+      "vmg": 2.55,
+      "rt_pct": 46,
+      "lt_pct": 54
+    }
+  ],
+  "track_style": {
+    "source_regatta": "ilca4_r1",
+    "style_label": "left-reactive-medium-board",
+    "rank": 7,
+    "ranking_confidence": "medium",
+    "track_file": "Hristov Simeon.gpx",
+    "preferred_attack_side": "left",
+    "initial_side_sign": 1,
+    "major_heading_changes": 36,
+    "maneuver_rate_per_hour": 21.41,
+    "median_board_s_est": 128,
+    "median_board_m_est": 270,
+    "patience": 0.229,
+    "reactivity": 0.541,
+    "rank_weight": 0.143,
+    "lane_bias_adjust": -0.185,
+    "switch_threshold": 0.107,
+    "board_commitment_ms": 115000,
+    "min_tack_interval_ms": 92000,
+    "min_tack_distance_m": 230,
+    "max_upwind_tactical_tacks": 3,
+    "course_boldness_adjust": 0.015,
+    "response_adjust": 0.004,
+    "wind_sensitivity_adjust": 0.02,
+    "upwind_lead_adjust": -0.012,
+    "layline_lead_adjust": -0.009,
+    "qwen_hint": "Simeon settimo: sinistra, reattivita medio-alta, bordi piu corti di Giuseppe/Emanuele."
+  }
+}

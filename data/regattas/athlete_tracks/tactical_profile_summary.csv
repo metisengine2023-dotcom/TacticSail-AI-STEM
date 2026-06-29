@@ -1,0 +1,8 @@
+bot_code,athlete,valid_tracks,style_label,preferred_side,start,patience,reactivity,risk_edge,median_board_s,maneuver_rate_h,right_share,avg_speed_kn
+BOT_01,Paolo Bellofiore,8,center-center-medium-board,center,pin,0.135,0.191,0.599,105.0,15.44,0.508,4.22
+BOT_05,Emanuele Vincenzi,7,left-center-medium-board,left,pin,0,0.547,0.713,42.0,21.85,0.375,3.99
+BOT_03,Enrico Morina,7,left-edge-medium-board,left,pin,0.106,0.165,0.886,97.5,14.96,0.393,3.94
+BOT_06,Elia Uffreduzzi,8,center-center-medium-board,center,pin,0.233,0.149,0.553,130.5,14.69,0.501,4.45
+BOT_02,Filippo Noto,8,right-edge-medium-board,right,pin,0.042,0.078,1,81.0,13.4,0.662,3.02
+BOT_04,Giuseppe Cucinelli,8,center-center-medium-board,center,pin,0.244,0.137,0.696,133.5,14.47,0.506,4.41
+BOT_07,Simeon Hristov,8,center-center-medium-board,center,pin,0.097,0.187,0.645,95.2,15.37,0.529,4.41

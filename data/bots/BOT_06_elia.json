@@ -1,0 +1,199 @@
+{
+  "bot_code": "BOT_06",
+  "bot_name": "Elia",
+  "area": "B",
+  "examples_count": 100,
+  "preferred_side": "right",
+  "metrics": {
+    "avg_speed": 6.26,
+    "avg_vmg": 3.91,
+    "avg_distance_pct": 119.4,
+    "avg_rt_pct": 58.3,
+    "avg_lt_pct": 41.7,
+    "top_vmg_kn": 9.68,
+    "top_vmc_kn": 9.68
+  },
+  "leg_metrics": [
+    {
+      "leg": 1,
+      "race": 4,
+      "mode": "upwind",
+      "classifica": 7,
+      "vmg_medio_kn": 3.13,
+      "top_vmg_kn": 6.25,
+      "velocita_media_kn": 4.8,
+      "velocita_max_kn": 7.0,
+      "distanza_pct": 150,
+      "percorso_effettivo_m": 1704,
+      "lunghezza_gamba_m": 1135,
+      "corso_deg": 187
+    },
+    {
+      "leg": 2,
+      "race": 4,
+      "mode": "reach",
+      "classifica": 11,
+      "vmg_medio_kn": 5.86,
+      "top_vmg_kn": 8.3,
+      "velocita_media_kn": 6.23,
+      "velocita_max_kn": 9.1,
+      "distanza_pct": 110,
+      "percorso_effettivo_m": 1157,
+      "lunghezza_gamba_m": 1052,
+      "corso_deg": 7
+    },
+    {
+      "leg": 3,
+      "race": 4,
+      "mode": "run",
+      "classifica": 11,
+      "vmg_medio_kn": 3.14,
+      "top_vmg_kn": 5.36,
+      "velocita_media_kn": 4.74,
+      "velocita_max_kn": 6.8,
+      "distanza_pct": 148,
+      "percorso_effettivo_m": 1560,
+      "lunghezza_gamba_m": 1054,
+      "corso_deg": 187
+    },
+    {
+      "leg": 4,
+      "race": 4,
+      "mode": "upwind",
+      "classifica": 9,
+      "vmg_medio_kn": 2.2,
+      "top_vmg_kn": 5.23,
+      "velocita_media_kn": 8.49,
+      "velocita_max_kn": 9.9,
+      "distanza_pct": 106,
+      "percorso_effettivo_m": 855,
+      "lunghezza_gamba_m": 807,
+      "corso_deg": 78
+    },
+    {
+      "leg": 5,
+      "race": 4,
+      "mode": "run",
+      "classifica": 10,
+      "vmg_medio_kn": 5.91,
+      "top_vmg_kn": 9.68,
+      "velocita_media_kn": 6.08,
+      "velocita_max_kn": 9.8,
+      "distanza_pct": 102,
+      "percorso_effettivo_m": 1276,
+      "lunghezza_gamba_m": 1251,
+      "corso_deg": 6
+    },
+    {
+      "leg": 6,
+      "race": 4,
+      "mode": "finish",
+      "classifica": 10,
+      "vmg_medio_kn": 2.48,
+      "top_vmg_kn": 5.41,
+      "velocita_media_kn": 6.32,
+      "velocita_max_kn": 8.1,
+      "distanza_pct": 100,
+      "percorso_effettivo_m": 274,
+      "lunghezza_gamba_m": 274,
+      "corso_deg": 303
+    }
+  ],
+  "tactical_tags": [
+    "right-side-bias",
+    "high-top-vmg",
+    "high-boat-speed",
+    "upwind-distance-excess"
+  ],
+  "notes": [
+    "Race 4 competitor - highest top VMG of all bots (9.68 kn on leg 5)",
+    "Upwind leg 1 has very high distance% (150%) - large tacking angle or extra gybes",
+    "Exceptional top speed burst on leg 5: 9.8 kn max",
+    "Leg 3 distance% of 148% on run suggests downwind routing inefficiency",
+    "High boat speed overall - avg 6.26 kn, fastest in the cohort"
+  ],
+  "source_examples": [
+    {
+      "leg": 1,
+      "race": 4,
+      "scenario": "area b bolina",
+      "avg_speed": 4.8,
+      "vmg": 3.13,
+      "rt_pct": 58,
+      "lt_pct": 42
+    },
+    {
+      "leg": 2,
+      "race": 4,
+      "scenario": "area b reach",
+      "avg_speed": 6.23,
+      "vmg": 5.86,
+      "rt_pct": 59,
+      "lt_pct": 41
+    },
+    {
+      "leg": 3,
+      "race": 4,
+      "scenario": "area b poppa",
+      "avg_speed": 4.74,
+      "vmg": 3.14,
+      "rt_pct": 58,
+      "lt_pct": 42
+    },
+    {
+      "leg": 4,
+      "race": 4,
+      "scenario": "area b bolina",
+      "avg_speed": 8.49,
+      "vmg": 2.2,
+      "rt_pct": 59,
+      "lt_pct": 41
+    },
+    {
+      "leg": 5,
+      "race": 4,
+      "scenario": "area b poppa discesa",
+      "avg_speed": 6.08,
+      "vmg": 5.91,
+      "rt_pct": 58,
+      "lt_pct": 42
+    },
+    {
+      "leg": 6,
+      "race": 4,
+      "scenario": "area b reach arrivo",
+      "avg_speed": 6.32,
+      "vmg": 2.48,
+      "rt_pct": 58,
+      "lt_pct": 42
+    }
+  ],
+  "track_style": {
+    "source_regatta": "ilca4_r1",
+    "style_label": "right-attacker-high-tempo",
+    "rank": 3,
+    "ranking_confidence": "medium",
+    "track_file": "Uffreduzzi Elia.gpx",
+    "preferred_attack_side": "right",
+    "initial_side_sign": -1,
+    "major_heading_changes": 45,
+    "maneuver_rate_per_hour": 22.43,
+    "median_board_s_est": 151,
+    "median_board_m_est": 315,
+    "patience": 0.338,
+    "reactivity": 0.643,
+    "rank_weight": 0.714,
+    "lane_bias_adjust": 0.237,
+    "switch_threshold": 0.133,
+    "board_commitment_ms": 136000,
+    "min_tack_interval_ms": 109000,
+    "min_tack_distance_m": 230,
+    "max_upwind_tactical_tacks": 4,
+    "course_boldness_adjust": 0.048,
+    "response_adjust": 0.009,
+    "wind_sensitivity_adjust": 0.048,
+    "upwind_lead_adjust": -0.006,
+    "layline_lead_adjust": -0.004,
+    "qwen_hint": "Elia terzo: attivo e aggressivo, molti cambi di direzione, cerca pressione e accetta piu rischio."
+  }
+}

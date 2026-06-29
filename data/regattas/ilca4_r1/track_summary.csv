@@ -1,0 +1,8 @@
+rank,athlete,bot_code,track_file,points,duration_min,distance_km,avg_speed_kn_full_track,major_heading_changes,median_board_m_est,median_board_s_est,west_pct_track_center,east_pct_track_center,lat_min,lat_max,lon_min,lon_max,ranking_confidence
+1,Paolo Bellofiore,BOT_01,Bellofiore Paolo.gpx,2403,120.1,14.283,3.85,33,562,284,50.0,50.0,45.853477,45.867477,10.84396,10.863095,high
+2,Emanuele Vincenzi,BOT_05,Vincenzi Emanuele.gpx,2389,119.4,14.037,3.81,40,450,230,50.0,50.0,45.853386,45.873962,10.844065,10.863115,high
+3,Elia Uffreduzzi,BOT_06,Uffreduzzi Elia.gpx,2408,120.35,15.085,4.06,45,315,151,50.0,50.0,45.8535,45.867222,10.84583,10.863307,medium
+4,Filippo Noto,BOT_02,Noto Filippo.gpx,1928,96.35,12.858,4.32,39,180,81,50.0,50.0,45.853397,45.874798,10.845899,10.868731,medium
+5,Enrico Morina,BOT_03,Morina Enrico.gpx,1931,96.5,12.763,4.28,31,315,143,50.0,50.0,45.853519,45.873642,10.844497,10.868814,medium
+6,Giuseppe Cucinelli,BOT_04,Cucinelli Giuseppe.gpx,1920,95.95,13.313,4.5,31,472,204,50.0,50.0,45.853485,45.868023,10.846006,10.86592,medium
+7,Simeon Hristov,BOT_07,Hristov Simeon.gpx,2019,100.9,12.811,4.11,36,270,128,50.0,50.0,45.853542,45.872738,10.843463,10.869128,medium

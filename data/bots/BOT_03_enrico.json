@@ -1,0 +1,198 @@
+{
+  "bot_code": "BOT_03",
+  "bot_name": "Enrico",
+  "area": "B",
+  "examples_count": 105,
+  "preferred_side": "right",
+  "metrics": {
+    "avg_speed": 6.04,
+    "avg_vmg": 3.92,
+    "avg_distance_pct": 118.0,
+    "avg_rt_pct": 74.1,
+    "avg_lt_pct": 25.9,
+    "top_vmg_kn": 8.2,
+    "top_vmc_kn": 8.2
+  },
+  "leg_metrics": [
+    {
+      "leg": 1,
+      "race": 3,
+      "mode": "upwind",
+      "classifica": 12,
+      "vmg_medio_kn": 3.09,
+      "top_vmg_kn": 4.9,
+      "velocita_media_kn": 4.79,
+      "velocita_max_kn": 6.4,
+      "distanza_pct": 148,
+      "percorso_effettivo_m": 1914,
+      "lunghezza_gamba_m": 1293,
+      "corso_deg": 186
+    },
+    {
+      "leg": 2,
+      "race": 3,
+      "mode": "reach",
+      "classifica": 13,
+      "vmg_medio_kn": 2.24,
+      "top_vmg_kn": 6.18,
+      "velocita_media_kn": 8.76,
+      "velocita_max_kn": 10.6,
+      "distanza_pct": 102,
+      "percorso_effettivo_m": 811,
+      "lunghezza_gamba_m": 797,
+      "corso_deg": 79
+    },
+    {
+      "leg": 3,
+      "race": 3,
+      "mode": "run",
+      "classifica": 12,
+      "vmg_medio_kn": 5.98,
+      "top_vmg_kn": 8.2,
+      "velocita_media_kn": 6.24,
+      "velocita_max_kn": 8.5,
+      "distanza_pct": 104,
+      "percorso_effettivo_m": 1310,
+      "lunghezza_gamba_m": 1258,
+      "corso_deg": 6
+    },
+    {
+      "leg": 4,
+      "race": 3,
+      "mode": "upwind",
+      "classifica": 9,
+      "vmg_medio_kn": 3.16,
+      "top_vmg_kn": 4.49,
+      "velocita_media_kn": 4.89,
+      "velocita_max_kn": 6.5,
+      "distanza_pct": 157,
+      "percorso_effettivo_m": 1963,
+      "lunghezza_gamba_m": 1252,
+      "corso_deg": 186
+    },
+    {
+      "leg": 5,
+      "race": 3,
+      "mode": "run",
+      "classifica": 9,
+      "vmg_medio_kn": 5.76,
+      "top_vmg_kn": 8.02,
+      "velocita_media_kn": 6.03,
+      "velocita_max_kn": 8.3,
+      "distanza_pct": 103,
+      "percorso_effettivo_m": 1203,
+      "lunghezza_gamba_m": 1250,
+      "corso_deg": 6
+    },
+    {
+      "leg": 6,
+      "race": 3,
+      "mode": "finish",
+      "classifica": 9,
+      "vmg_medio_kn": 2.91,
+      "top_vmg_kn": 4.94,
+      "velocita_media_kn": 7.19,
+      "velocita_max_kn": 8.6,
+      "distanza_pct": 93,
+      "percorso_effettivo_m": 255,
+      "lunghezza_gamba_m": 274,
+      "corso_deg": 303
+    }
+  ],
+  "tactical_tags": [
+    "right-side-bias",
+    "high-reach-boat-speed",
+    "upwind-distance-excess"
+  ],
+  "notes": [
+    "Race 3 competitor - large fleet, 13+ boats",
+    "Exceptional reach boat speed: 8.76 kn avg on leg 2 (10.6 kn max)",
+    "Upwind leg 4 distance% of 157% is very high - significant tacking inefficiency",
+    "Downwind VMG competitive (~5.76-5.98 kn) but below top performers",
+    "Finish leg under 100% distanza_pct (93%) suggests good layline execution"
+  ],
+  "source_examples": [
+    {
+      "leg": 1,
+      "race": 3,
+      "scenario": "area b bolina",
+      "avg_speed": 4.79,
+      "vmg": 3.09,
+      "rt_pct": 74,
+      "lt_pct": 26
+    },
+    {
+      "leg": 2,
+      "race": 3,
+      "scenario": "area b reach",
+      "avg_speed": 8.76,
+      "vmg": 2.24,
+      "rt_pct": 75,
+      "lt_pct": 25
+    },
+    {
+      "leg": 3,
+      "race": 3,
+      "scenario": "area b poppa",
+      "avg_speed": 6.24,
+      "vmg": 5.98,
+      "rt_pct": 73,
+      "lt_pct": 27
+    },
+    {
+      "leg": 4,
+      "race": 3,
+      "scenario": "area b bolina",
+      "avg_speed": 4.89,
+      "vmg": 3.16,
+      "rt_pct": 74,
+      "lt_pct": 26
+    },
+    {
+      "leg": 5,
+      "race": 3,
+      "scenario": "area b poppa discesa",
+      "avg_speed": 6.03,
+      "vmg": 5.76,
+      "rt_pct": 74,
+      "lt_pct": 26
+    },
+    {
+      "leg": 6,
+      "race": 3,
+      "scenario": "area b reach arrivo",
+      "avg_speed": 7.19,
+      "vmg": 2.91,
+      "rt_pct": 74,
+      "lt_pct": 26
+    }
+  ],
+  "track_style": {
+    "source_regatta": "ilca4_r1",
+    "style_label": "measured-right-medium-board",
+    "rank": 5,
+    "ranking_confidence": "medium",
+    "track_file": "Morina Enrico.gpx",
+    "preferred_attack_side": "right",
+    "initial_side_sign": -1,
+    "major_heading_changes": 31,
+    "maneuver_rate_per_hour": 19.27,
+    "median_board_s_est": 143,
+    "median_board_m_est": 315,
+    "patience": 0.3,
+    "reactivity": 0.327,
+    "rank_weight": 0.429,
+    "lane_bias_adjust": 0.212,
+    "switch_threshold": 0.131,
+    "board_commitment_ms": 129000,
+    "min_tack_interval_ms": 103000,
+    "min_tack_distance_m": 230,
+    "max_upwind_tactical_tacks": 3,
+    "course_boldness_adjust": 0.005,
+    "response_adjust": -0.006,
+    "wind_sensitivity_adjust": 0.027,
+    "upwind_lead_adjust": -0.008,
+    "layline_lead_adjust": -0.006,
+    "qwen_hint": "Enrico quinto: misurato e abbastanza conservativo, bordi medi, poche decisioni impulsive."
+  }
+}

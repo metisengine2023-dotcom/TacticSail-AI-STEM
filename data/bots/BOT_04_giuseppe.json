@@ -1,0 +1,198 @@
+{
+  "bot_code": "BOT_04",
+  "bot_name": "Giuseppe",
+  "area": "B",
+  "examples_count": 103,
+  "preferred_side": "left",
+  "metrics": {
+    "avg_speed": 6.04,
+    "avg_vmg": 4.03,
+    "avg_distance_pct": 118.0,
+    "avg_rt_pct": 45.6,
+    "avg_lt_pct": 54.4,
+    "top_vmg_kn": 8.2,
+    "top_vmc_kn": 8.2
+  },
+  "leg_metrics": [
+    {
+      "leg": 1,
+      "race": 3,
+      "mode": "upwind",
+      "classifica": 9,
+      "vmg_medio_kn": 3.21,
+      "top_vmg_kn": 4.92,
+      "velocita_media_kn": 4.81,
+      "velocita_max_kn": 6.5,
+      "distanza_pct": 146,
+      "percorso_effettivo_m": 1887,
+      "lunghezza_gamba_m": 1293,
+      "corso_deg": 186
+    },
+    {
+      "leg": 2,
+      "race": 3,
+      "mode": "reach",
+      "classifica": 9,
+      "vmg_medio_kn": 2.31,
+      "top_vmg_kn": 6.2,
+      "velocita_media_kn": 8.71,
+      "velocita_max_kn": 10.5,
+      "distanza_pct": 102,
+      "percorso_effettivo_m": 813,
+      "lunghezza_gamba_m": 797,
+      "corso_deg": 79
+    },
+    {
+      "leg": 3,
+      "race": 3,
+      "mode": "run",
+      "classifica": 9,
+      "vmg_medio_kn": 6.04,
+      "top_vmg_kn": 8.2,
+      "velocita_media_kn": 6.28,
+      "velocita_max_kn": 8.4,
+      "distanza_pct": 104,
+      "percorso_effettivo_m": 1308,
+      "lunghezza_gamba_m": 1258,
+      "corso_deg": 6
+    },
+    {
+      "leg": 4,
+      "race": 3,
+      "mode": "upwind",
+      "classifica": 9,
+      "vmg_medio_kn": 3.22,
+      "top_vmg_kn": 4.55,
+      "velocita_media_kn": 4.91,
+      "velocita_max_kn": 6.4,
+      "distanza_pct": 154,
+      "percorso_effettivo_m": 1928,
+      "lunghezza_gamba_m": 1252,
+      "corso_deg": 186
+    },
+    {
+      "leg": 5,
+      "race": 3,
+      "mode": "run",
+      "classifica": 9,
+      "vmg_medio_kn": 5.83,
+      "top_vmg_kn": 8.05,
+      "velocita_media_kn": 6.07,
+      "velocita_max_kn": 8.2,
+      "distanza_pct": 103,
+      "percorso_effettivo_m": 1209,
+      "lunghezza_gamba_m": 1250,
+      "corso_deg": 6
+    },
+    {
+      "leg": 6,
+      "race": 3,
+      "mode": "finish",
+      "classifica": 9,
+      "vmg_medio_kn": 2.95,
+      "top_vmg_kn": 4.98,
+      "velocita_media_kn": 7.22,
+      "velocita_max_kn": 8.5,
+      "distanza_pct": 93,
+      "percorso_effettivo_m": 255,
+      "lunghezza_gamba_m": 274,
+      "corso_deg": 303
+    }
+  ],
+  "tactical_tags": [
+    "left-side-bias",
+    "upwind-slightly-faster",
+    "consistent-mid-fleet"
+  ],
+  "notes": [
+    "Race 3 competitor - same fleet as Enrico (BOT_03)",
+    "Slight upwind VMG advantage over Enrico: ~3.21 vs 3.09 kn",
+    "Left-side preference on upwind legs - consistent port-tack bias",
+    "Reach boat speed very high (8.71 kn avg, 10.5 kn max)",
+    "Steady rank 9 across all legs - dependable mid-fleet performer"
+  ],
+  "source_examples": [
+    {
+      "leg": 1,
+      "race": 3,
+      "scenario": "area b bolina",
+      "avg_speed": 4.81,
+      "vmg": 3.21,
+      "rt_pct": 45,
+      "lt_pct": 55
+    },
+    {
+      "leg": 2,
+      "race": 3,
+      "scenario": "area b reach",
+      "avg_speed": 8.71,
+      "vmg": 2.31,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 3,
+      "race": 3,
+      "scenario": "area b poppa",
+      "avg_speed": 6.28,
+      "vmg": 6.04,
+      "rt_pct": 45,
+      "lt_pct": 55
+    },
+    {
+      "leg": 4,
+      "race": 3,
+      "scenario": "area b bolina",
+      "avg_speed": 4.91,
+      "vmg": 3.22,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 5,
+      "race": 3,
+      "scenario": "area b poppa discesa",
+      "avg_speed": 6.07,
+      "vmg": 5.83,
+      "rt_pct": 45,
+      "lt_pct": 55
+    },
+    {
+      "leg": 6,
+      "race": 3,
+      "scenario": "area b reach arrivo",
+      "avg_speed": 7.22,
+      "vmg": 2.95,
+      "rt_pct": 46,
+      "lt_pct": 54
+    }
+  ],
+  "track_style": {
+    "source_regatta": "ilca4_r1",
+    "style_label": "left-pressure-long-board",
+    "rank": 6,
+    "ranking_confidence": "medium",
+    "track_file": "Cucinelli Giuseppe.gpx",
+    "preferred_attack_side": "left",
+    "initial_side_sign": 1,
+    "major_heading_changes": 31,
+    "maneuver_rate_per_hour": 19.39,
+    "median_board_s_est": 204,
+    "median_board_m_est": 472,
+    "patience": 0.59,
+    "reactivity": 0.339,
+    "rank_weight": 0.286,
+    "lane_bias_adjust": -0.218,
+    "switch_threshold": 0.168,
+    "board_commitment_ms": 184000,
+    "min_tack_interval_ms": 147000,
+    "min_tack_distance_m": 274,
+    "max_upwind_tactical_tacks": 3,
+    "course_boldness_adjust": 0.0,
+    "response_adjust": -0.005,
+    "wind_sensitivity_adjust": 0.021,
+    "upwind_lead_adjust": 0.008,
+    "layline_lead_adjust": 0.006,
+    "qwen_hint": "Giuseppe sesto: bordi lunghi su sinistra/pressione, meno reattivo ma con buona stabilita."
+  }
+}

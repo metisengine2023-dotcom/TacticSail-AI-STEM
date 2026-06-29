@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "buoys": [
+    { "id": "ALFA RC", "lat": 45.85585, "lon": 10.83960, "kind": "committee" },
+    { "id": "ALFA PIN", "lat": 45.85480, "lon": 10.84295, "kind": "gate" },
+    { "id": "ALFA FIN", "lat": 45.85635, "lon": 10.84435, "kind": "finish" },
+    { "id": "ALFA FINISH", "lat": 45.85680, "lon": 10.84510, "kind": "finish" },
+    { "id": "ALFA FINISH END", "lat": 45.85630, "lon": 10.84555, "kind": "finish" },
+    { "id": "ALFA 3P", "lat": 45.85520, "lon": 10.84715, "kind": "gate" },
+    { "id": "ALFA 3ST", "lat": 45.85495, "lon": 10.84810, "kind": "gate" },
+    { "id": "ALFA 1", "lat": 45.83930, "lon": 10.83670, "kind": "pin" },
+    { "id": "ALFA 2", "lat": 45.83930, "lon": 10.84550, "kind": "pin" }
+  ],
+  "boats": [
+    { "id": "BOT_01", "lat": 45.85750, "lon": 10.83770, "heading": 155, "mure": "mure_a_dritta" },
+    { "id": "BOT_02", "lat": 45.85768, "lon": 10.83855, "heading": 155, "mure": "mure_a_dritta" },
+    { "id": "BOT_03", "lat": 45.85786, "lon": 10.83940, "heading": 155, "mure": "mure_a_sinistra" },
+    { "id": "BOT_04", "lat": 45.85758, "lon": 10.84025, "heading": 155, "mure": "mure_a_sinistra" },
+    { "id": "BOT_05", "lat": 45.85778, "lon": 10.84110, "heading": 155, "mure": "mure_a_sinistra" },
+    { "id": "BOT_06", "lat": 45.85748, "lon": 10.84195, "heading": 155, "mure": "mure_a_dritta" },
+    { "id": "BOT_07", "lat": 45.85772, "lon": 10.84280, "heading": 155, "mure": "mure_a_sinistra" },
+    { "id": "USER_BOAT", "lat": 45.85720, "lon": 10.84365, "heading": 155, "mure": "mure_a_dritta", "name": "Your boat" }
+  ],
+  "selection": {
+    "selectedBoatId": "USER_BOAT",
+    "leg": "bolina",
+    "showVmg": true,
+    "showLaylines": true
+  },
+  "map": {
+    "zoom": 9.4,
+    "centerLat": 45.6500,
+    "centerLon": 10.6500
+  }
+}

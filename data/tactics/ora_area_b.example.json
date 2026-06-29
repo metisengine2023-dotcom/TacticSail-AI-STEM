@@ -1,0 +1,148 @@
+{
+  "name": "Ora",
+  "area": "B",
+  "summary": "South wind strategy for Area B based on MetaSail screenshot logic",
+  "base_tactic": {
+    "type": "first_upwind_base",
+    "description": "The first upwind stays mostly fixed: start, tack immediately to port tack (mure a sinistra), sail straight to the layline, tack to starboard tack, and close to the mark.",
+    "core_sequence": [
+      "start",
+      "tack immediately to port tack (mure a sinistra)",
+      "sail straight to the layline (andare dritti)",
+      "reach layline",
+      "tack to starboard tack (mure a dritta)",
+      "close to mark"
+    ]
+  },
+  "course_structure": {
+    "preferred_layout": "outer_course",
+    "inner_course_note": "The inner course keeps the same logic but rounds the right gate from the screenshot, climbs briefly on starboard, then returns to port and repeats the same first-upwind logic.",
+    "outer_course_sequence": [
+      "start",
+      "upwind_1",
+      "reach_1",
+      "run_1",
+      "finish"
+    ]
+  },
+  "rules": [
+    {
+      "label": "left_side_bias",
+      "trigger": "Ora in Area B",
+      "action": "Prefer the left side when the wind map shows more pressure there.",
+      "priority": 1
+    },
+    {
+      "label": "speed_first",
+      "trigger": "Any tactical decision",
+      "action": "Keep the boat moving and protect speed before forcing a maneuver.",
+      "priority": 2
+    },
+    {
+      "label": "tack_for_gain",
+      "trigger": "A better pressure lane appears before layline",
+      "action": "Tack early if the gain from the stronger lane outweighs the extra distance.",
+      "priority": 3
+    },
+    {
+      "label": "layline_closeout",
+      "trigger": "Close to layline",
+      "action": "Stop searching and close the approach to the mark.",
+      "priority": 4
+    },
+    {
+      "label": "screenshot_first",
+      "trigger": "Any new scenario screenshot",
+      "action": "Use the screenshot as the base map, then adjust only small left/right pressure shifts.",
+      "priority": 5
+    },
+    {
+      "label": "small_variation_only",
+      "trigger": "Wind quality changes",
+      "action": "Change only start choice, micro-angle, and small side bias; keep the base tactic stable.",
+      "priority": 6
+    },
+    {
+      "label": "gate_right_inner",
+      "trigger": "Inner layout from the screenshot",
+      "action": "Round the right gate, climb briefly on starboard, then return to port and repeat the first-upwind base tactic.",
+      "priority": 7
+    },
+    {
+      "label": "gate_left_normal_outer",
+      "trigger": "Normal outer course and normal wind",
+      "action": "Prefer the left gate because it matches the first run and sets up the next upwind with the same field logic.",
+      "priority": 8
+    },
+    {
+      "label": "center_right_after_right_gate",
+      "trigger": "Right gate chosen from screenshot logic",
+      "action": "After the rounding, tack early and sail a center-right race lane, watching for more oscillations and small gains on that side.",
+      "priority": 9
+    },
+    {
+      "label": "inside_reach_gain",
+      "trigger": "Reach leg with some boats going too far outside",
+      "action": "A well-executed inside reach can gain because the outside boats may sail almost double distance.",
+      "priority": 10
+    },
+    {
+      "label": "controlled_outside_reach",
+      "trigger": "Reach leg with a moderate outside lane",
+      "action": "If the outside lane is not too extreme, it can re-enter earlier on the upwind setup and keep the advantage.",
+      "priority": 11
+    },
+    {
+      "label": "run_left_normal",
+      "trigger": "Normal run and normal Ora field",
+      "action": "The right side has less wind, so the left side of the run is usually better.",
+      "priority": 12
+    },
+    {
+      "label": "run_inside_center_south_left",
+      "trigger": "Wind comes from the center-south to center-left point seen from Riva del Garda",
+      "action": "The inside run becomes good. First upwind and second upwind should both favor the left side before tacking back into the field.",
+      "priority": 13
+    },
+    {
+      "label": "small_right_counter_shift",
+      "trigger": "Left-favored special wind with a small local counter-shift",
+      "action": "Watch for a small local right shift where boats slightly more to the right can occasionally arrive first.",
+      "priority": 14
+    },
+    {
+      "label": "second_upwind_same_logic",
+      "trigger": "Second upwind",
+      "action": "Repeat the same first-upwind tactical logic, with left side favored in the special center-south-left wind pattern.",
+      "priority": 15
+    },
+    {
+      "label": "start_line_preset_keys",
+      "trigger": "Keyboard start presets",
+      "action": "Q selects the committee side of the start line, W selects the center, and R selects the buoy side.",
+      "priority": 16
+    }
+  ],
+  "variants": [
+    {
+      "name": "buono_left",
+      "trigger": "Good wind with slightly better pressure on the left",
+      "behavior": "Start and sail a little more left, keep the boat fast, and tack only when the gain is clear."
+    },
+    {
+      "name": "buono_right",
+      "trigger": "Good wind with slightly better pressure on the right",
+      "behavior": "Allow a small right shift only if the wind lane is stronger enough to compensate the extra distance."
+    },
+    {
+      "name": "scarso_safe",
+      "trigger": "Weak or patchy wind",
+      "behavior": "Protect speed, reduce risky maneuvers, and pick the more stable lane."
+    },
+    {
+      "name": "special_center_south_left_wind",
+      "trigger": "Wind arrives from the center-south to center-left point described from Riva del Garda",
+      "behavior": "Go left on the first upwind, tack and repeat the same field logic, prefer the inside run, and keep the second upwind left-favored while staying alert for small right-side counter-shifts."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="alfa_1" id="alfa_1">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="Ruolo" type="string"></SimpleField>
+</Schema>
+<Folder><name>alfa_1</name>
+  <Placemark id="alfa_1.1">
+	<ExtendedData><SchemaData schemaUrl="#alfa_1">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="Ruolo">Comitato</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>10.8389148490653,45.833671294529</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,198 @@
+{
+  "bot_code": "BOT_05",
+  "bot_name": "Emanuele",
+  "area": "B",
+  "examples_count": 100,
+  "preferred_side": "left",
+  "metrics": {
+    "avg_speed": 6.03,
+    "avg_vmg": 4.03,
+    "avg_distance_pct": 116.3,
+    "avg_rt_pct": 46.7,
+    "avg_lt_pct": 53.3,
+    "top_vmg_kn": 8.02,
+    "top_vmc_kn": 8.02
+  },
+  "leg_metrics": [
+    {
+      "leg": 1,
+      "race": 3,
+      "mode": "upwind",
+      "classifica": 9,
+      "vmg_medio_kn": 3.12,
+      "top_vmg_kn": 4.91,
+      "velocita_media_kn": 4.8,
+      "velocita_max_kn": 6.4,
+      "distanza_pct": 147,
+      "percorso_effettivo_m": 1902,
+      "lunghezza_gamba_m": 1293,
+      "corso_deg": 186
+    },
+    {
+      "leg": 2,
+      "race": 3,
+      "mode": "reach",
+      "classifica": 9,
+      "vmg_medio_kn": 2.28,
+      "top_vmg_kn": 6.15,
+      "velocita_media_kn": 8.73,
+      "velocita_max_kn": 10.4,
+      "distanza_pct": 102,
+      "percorso_effettivo_m": 812,
+      "lunghezza_gamba_m": 797,
+      "corso_deg": 79
+    },
+    {
+      "leg": 3,
+      "race": 3,
+      "mode": "run",
+      "classifica": 9,
+      "vmg_medio_kn": 6.01,
+      "top_vmg_kn": 8.02,
+      "velocita_media_kn": 6.26,
+      "velocita_max_kn": 8.3,
+      "distanza_pct": 104,
+      "percorso_effettivo_m": 1307,
+      "lunghezza_gamba_m": 1258,
+      "corso_deg": 6
+    },
+    {
+      "leg": 4,
+      "race": 3,
+      "mode": "upwind",
+      "classifica": 9,
+      "vmg_medio_kn": 3.19,
+      "top_vmg_kn": 4.51,
+      "velocita_media_kn": 4.9,
+      "velocita_max_kn": 6.5,
+      "distanza_pct": 155,
+      "percorso_effettivo_m": 1940,
+      "lunghezza_gamba_m": 1252,
+      "corso_deg": 186
+    },
+    {
+      "leg": 5,
+      "race": 3,
+      "mode": "run",
+      "classifica": 9,
+      "vmg_medio_kn": 5.79,
+      "top_vmg_kn": 8.0,
+      "velocita_media_kn": 6.04,
+      "velocita_max_kn": 8.2,
+      "distanza_pct": 103,
+      "percorso_effettivo_m": 1206,
+      "lunghezza_gamba_m": 1250,
+      "corso_deg": 6
+    },
+    {
+      "leg": 6,
+      "race": 3,
+      "mode": "finish",
+      "classifica": 9,
+      "vmg_medio_kn": 2.93,
+      "top_vmg_kn": 4.95,
+      "velocita_media_kn": 7.2,
+      "velocita_max_kn": 8.5,
+      "distanza_pct": 93,
+      "percorso_effettivo_m": 255,
+      "lunghezza_gamba_m": 274,
+      "corso_deg": 303
+    }
+  ],
+  "tactical_tags": [
+    "left-side-bias",
+    "consistent-mid-fleet",
+    "solid-downwind-vmg"
+  ],
+  "notes": [
+    "Race 3 competitor - same fleet as Enrico (BOT_03) and Giuseppe (BOT_04)",
+    "Very similar pattern to Giuseppe: left bias, rank 9 across the board",
+    "Downwind VMG slightly below Giuseppe (5.79 vs 5.83 kn) but consistent",
+    "Upwind distance% high on leg 4 (155%) - tacking strategy improvement needed",
+    "Finish leg efficiency good: 93% distanza_pct indicates clean layline approach"
+  ],
+  "source_examples": [
+    {
+      "leg": 1,
+      "race": 3,
+      "scenario": "area b bolina",
+      "avg_speed": 4.8,
+      "vmg": 3.12,
+      "rt_pct": 47,
+      "lt_pct": 53
+    },
+    {
+      "leg": 2,
+      "race": 3,
+      "scenario": "area b reach",
+      "avg_speed": 8.73,
+      "vmg": 2.28,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 3,
+      "race": 3,
+      "scenario": "area b poppa",
+      "avg_speed": 6.26,
+      "vmg": 6.01,
+      "rt_pct": 47,
+      "lt_pct": 53
+    },
+    {
+      "leg": 4,
+      "race": 3,
+      "scenario": "area b bolina",
+      "avg_speed": 4.9,
+      "vmg": 3.19,
+      "rt_pct": 47,
+      "lt_pct": 53
+    },
+    {
+      "leg": 5,
+      "race": 3,
+      "scenario": "area b poppa discesa",
+      "avg_speed": 6.04,
+      "vmg": 5.79,
+      "rt_pct": 46,
+      "lt_pct": 54
+    },
+    {
+      "leg": 6,
+      "race": 3,
+      "scenario": "area b reach arrivo",
+      "avg_speed": 7.2,
+      "vmg": 2.93,
+      "rt_pct": 47,
+      "lt_pct": 53
+    }
+  ],
+  "track_style": {
+    "source_regatta": "ilca4_r1",
+    "style_label": "left-control-long-board-podium",
+    "rank": 2,
+    "ranking_confidence": "high",
+    "track_file": "Vincenzi Emanuele.gpx",
+    "preferred_attack_side": "left",
+    "initial_side_sign": 1,
+    "major_heading_changes": 40,
+    "maneuver_rate_per_hour": 20.1,
+    "median_board_s_est": 230,
+    "median_board_m_est": 450,
+    "patience": 0.714,
+    "reactivity": 0.41,
+    "rank_weight": 0.857,
+    "lane_bias_adjust": -0.271,
+    "switch_threshold": 0.197,
+    "board_commitment_ms": 207000,
+    "min_tack_interval_ms": 166000,
+    "min_tack_distance_m": 261,
+    "max_upwind_tactical_tacks": 3,
+    "course_boldness_adjust": 0.03,
+    "response_adjust": -0.002,
+    "wind_sensitivity_adjust": 0.049,
+    "upwind_lead_adjust": 0.015,
+    "layline_lead_adjust": 0.011,
+    "qwen_hint": "Emanuele secondo: stile lungo e controllato, lato sinistro/pressione, meno nervoso di Filippo ed Elia."
+  }
+}

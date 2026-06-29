@@ -1,0 +1,173 @@
+{
+  "regatta_id": "ilca4_r1",
+  "features": [
+    {
+      "rank": 1,
+      "athlete": "Paolo Bellofiore",
+      "bot_code": "BOT_01",
+      "track_file": "Bellofiore Paolo.gpx",
+      "points": 2403,
+      "duration_min": 120.1,
+      "distance_km": 14.283,
+      "avg_speed_kn_full_track": 3.85,
+      "major_heading_changes": 33,
+      "median_board_m_est": 562,
+      "median_board_s_est": 284,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.853477,
+      "lat_max": 45.867477,
+      "lon_min": 10.84396,
+      "lon_max": 10.863095,
+      "ranking_confidence": "high",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    },
+    {
+      "rank": 6,
+      "athlete": "Giuseppe Cucinelli",
+      "bot_code": "BOT_04",
+      "track_file": "Cucinelli Giuseppe.gpx",
+      "points": 1920,
+      "duration_min": 95.95,
+      "distance_km": 13.313,
+      "avg_speed_kn_full_track": 4.5,
+      "major_heading_changes": 31,
+      "median_board_m_est": 472,
+      "median_board_s_est": 204,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.853485,
+      "lat_max": 45.868023,
+      "lon_min": 10.846006,
+      "lon_max": 10.86592,
+      "ranking_confidence": "medium",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    },
+    {
+      "rank": 7,
+      "athlete": "Simeon Hristov",
+      "bot_code": "BOT_07",
+      "track_file": "Hristov Simeon.gpx",
+      "points": 2019,
+      "duration_min": 100.9,
+      "distance_km": 12.811,
+      "avg_speed_kn_full_track": 4.11,
+      "major_heading_changes": 36,
+      "median_board_m_est": 270,
+      "median_board_s_est": 128,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.853542,
+      "lat_max": 45.872738,
+      "lon_min": 10.843463,
+      "lon_max": 10.869128,
+      "ranking_confidence": "medium",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    },
+    {
+      "rank": 5,
+      "athlete": "Enrico Morina",
+      "bot_code": "BOT_03",
+      "track_file": "Morina Enrico.gpx",
+      "points": 1931,
+      "duration_min": 96.5,
+      "distance_km": 12.763,
+      "avg_speed_kn_full_track": 4.28,
+      "major_heading_changes": 31,
+      "median_board_m_est": 315,
+      "median_board_s_est": 143,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.853519,
+      "lat_max": 45.873642,
+      "lon_min": 10.844497,
+      "lon_max": 10.868814,
+      "ranking_confidence": "medium",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    },
+    {
+      "rank": 4,
+      "athlete": "Filippo Noto",
+      "bot_code": "BOT_02",
+      "track_file": "Noto Filippo.gpx",
+      "points": 1928,
+      "duration_min": 96.35,
+      "distance_km": 12.858,
+      "avg_speed_kn_full_track": 4.32,
+      "major_heading_changes": 39,
+      "median_board_m_est": 180,
+      "median_board_s_est": 81,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.853397,
+      "lat_max": 45.874798,
+      "lon_min": 10.845899,
+      "lon_max": 10.868731,
+      "ranking_confidence": "medium",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    },
+    {
+      "rank": 3,
+      "athlete": "Elia Uffreduzzi",
+      "bot_code": "BOT_06",
+      "track_file": "Uffreduzzi Elia.gpx",
+      "points": 2408,
+      "duration_min": 120.35,
+      "distance_km": 15.085,
+      "avg_speed_kn_full_track": 4.06,
+      "major_heading_changes": 45,
+      "median_board_m_est": 315,
+      "median_board_s_est": 151,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.8535,
+      "lat_max": 45.867222,
+      "lon_min": 10.84583,
+      "lon_max": 10.863307,
+      "ranking_confidence": "medium",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    },
+    {
+      "rank": 2,
+      "athlete": "Emanuele Vincenzi",
+      "bot_code": "BOT_05",
+      "track_file": "Vincenzi Emanuele.gpx",
+      "points": 2389,
+      "duration_min": 119.4,
+      "distance_km": 14.037,
+      "avg_speed_kn_full_track": 3.81,
+      "major_heading_changes": 40,
+      "median_board_m_est": 450,
+      "median_board_s_est": 230,
+      "west_pct_track_center": 50.0,
+      "east_pct_track_center": 50.0,
+      "lat_min": 45.853386,
+      "lat_max": 45.873962,
+      "lon_min": 10.844065,
+      "lon_max": 10.863115,
+      "ranking_confidence": "high",
+      "notes": [
+        "Usare per forma tattica e stile, non come polare assoluta.",
+        "median_board_* e major_heading_changes sono stime da GPX grezzo non tagliato su start/finish."
+      ]
+    }
+  ]
+}

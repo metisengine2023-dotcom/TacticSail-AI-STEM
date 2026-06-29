@@ -1,0 +1,136 @@
+{
+  "dataset": "athlete_tracks",
+  "wind_context": "Ora",
+  "athletes": [
+    {
+      "athlete": "Paolo Bellofiore",
+      "bot_code": "BOT_01",
+      "folder": "paolo_bellofiore",
+      "valid_tracks": [
+        "tracks/green_r1.gpx",
+        "tracks/green_r2.gpx",
+        "tracks/green_r3.gpx",
+        "tracks/green_r4.gpx",
+        "tracks/gold_r1.gpx",
+        "tracks/gold_r2.gpx",
+        "tracks/gold_r3.gpx",
+        "tracks/gold_r4.gpx"
+      ],
+      "excluded_tracks": [
+        {
+          "path": "excluded/general_recall_gold_r1.gpx",
+          "reason": "General recall: kept separate until confirmed useful for calibration."
+        }
+      ],
+      "skipped_duplicates": [
+        {
+          "source": "/Users/giovanni/Downloads/ILCA 4  Gold R 1 (2).zip",
+          "duplicate_of": "/Users/giovanni/Downloads/ILCA 4  Gold R 1.zip",
+          "sha256": "48bf4481d8b6766385265e0a0aed76328f986eea2ac74bbd4eb4c30157e1b4a3"
+        }
+      ]
+    },
+    {
+      "athlete": "Emanuele Vincenzi",
+      "bot_code": "BOT_05",
+      "folder": "emanuele_vincenzi",
+      "valid_tracks": [
+        "tracks/green_r1.gpx",
+        "tracks/green_r2.gpx",
+        "tracks/yellow_r3.gpx",
+        "tracks/silver_r1.gpx",
+        "tracks/silver_r2.gpx",
+        "tracks/silver_r3.gpx",
+        "tracks/silver_r4.gpx"
+      ],
+      "excluded_tracks": [],
+      "notes": [
+        "Yellow R4 intentionally omitted because the user confirmed Emanuele did not race it."
+      ]
+    },
+    {
+      "athlete": "Enrico Morina",
+      "bot_code": "BOT_03",
+      "folder": "enrico_morina",
+      "valid_tracks": [
+        "tracks/yellow_r1.gpx",
+        "tracks/yellow_r2.gpx",
+        "tracks/yellow_r3.gpx",
+        "tracks/yellow_r4.gpx",
+        "tracks/gold_r1.gpx",
+        "tracks/gold_r2.gpx",
+        "tracks/gold_r4.gpx"
+      ],
+      "excluded_tracks": [
+        {
+          "path": "excluded/gold_r3_not_raced.gpx",
+          "reason": "Gold R3 excluded because the user confirmed Enrico did not race it."
+        }
+      ]
+    },
+    {
+      "athlete": "Elia Uffreduzzi",
+      "bot_code": "BOT_06",
+      "folder": "elia_uffreduzzi",
+      "valid_tracks": [
+        "tracks/green_r1.gpx",
+        "tracks/green_r2.gpx",
+        "tracks/blue_r3.gpx",
+        "tracks/blue_r4.gpx",
+        "tracks/gold_r1.gpx",
+        "tracks/gold_r2.gpx",
+        "tracks/gold_r3.gpx",
+        "tracks/gold_r4.gpx"
+      ],
+      "excluded_tracks": []
+    },
+    {
+      "athlete": "Filippo Noto",
+      "bot_code": "BOT_02",
+      "folder": "filippo_noto",
+      "valid_tracks": [
+        "tracks/yellow_r1.gpx",
+        "tracks/yellow_r2.gpx",
+        "tracks/yellow_r3.gpx",
+        "tracks/yellow_r4.gpx",
+        "tracks/silver_r1.gpx",
+        "tracks/silver_r2.gpx",
+        "tracks/silver_r3.gpx",
+        "tracks/silver_r4.gpx"
+      ],
+      "excluded_tracks": []
+    },
+    {
+      "athlete": "Giuseppe Cucinelli",
+      "bot_code": "BOT_04",
+      "folder": "giuseppe_cucinelli",
+      "valid_tracks": [
+        "tracks/blue_r1.gpx",
+        "tracks/blue_r2.gpx",
+        "tracks/blue_r3.gpx",
+        "tracks/blue_r4.gpx",
+        "tracks/gold_r1.gpx",
+        "tracks/gold_r2.gpx",
+        "tracks/gold_r3.gpx",
+        "tracks/gold_r4.gpx"
+      ],
+      "excluded_tracks": []
+    },
+    {
+      "athlete": "Simeon Hristov",
+      "bot_code": "BOT_07",
+      "folder": "simeon_hristov",
+      "valid_tracks": [
+        "tracks/blue_r1.gpx",
+        "tracks/blue_r2.gpx",
+        "tracks/red_r3.gpx",
+        "tracks/red_r4.gpx",
+        "tracks/gold_r1.gpx",
+        "tracks/gold_r2.gpx",
+        "tracks/gold_r3.gpx",
+        "tracks/gold_r4.gpx"
+      ],
+      "excluded_tracks": []
+    }
+  ]
+}

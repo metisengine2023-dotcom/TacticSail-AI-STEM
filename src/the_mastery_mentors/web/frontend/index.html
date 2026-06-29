@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TacticalSail v1 - Simulatore di Regata Area B</title>
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation Bar -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="logo-meta">META</span><span class="logo-sail">SAIL</span>
+                <span class="badge">V1 SIMULATOR</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">RIGIOCARE</a>
+                <a href="#">Statistiche per gamba</a>
+                <a href="#">Statistiche per barca</a>
+            </nav>
+            <div class="race-info">
+                <span class="race-title">2026 EurILCA EUROPA CUP - Riva del Garda ILCA 6</span>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Left Side: Interactive Map & Telemetry Controls -->
+            <section class="map-section">
+                <!-- Canvas Map Container -->
+                <div class="canvas-container">
+                    <!-- Compass Overlay -->
+                    <div class="wind-overlay" id="wind-overlay-id">
+                        <div class="compass-ring">
+                            <div class="wind-arrow" id="wind-arrow-id">↑</div>
+                        </div>
+                        <div class="wind-text">
+                            <span class="wind-val" id="wind-val-id">Wind 190.0°</span>
+                        </div>
+                    </div>
+
+                    <!-- Canvas -->
+                    <canvas id="regatta-canvas" width="800" height="600"></canvas>
+                </div>
+
+                <!-- Bottom Playback Control Bar -->
+                <footer class="playback-controls">
+                    <button id="btn-play-pause" class="btn btn-primary" title="Play/Pause">
+                        <span class="icon">▶</span> Play
+                    </button>
+                    
+                    <button id="btn-tack" class="btn btn-secondary" title="Vira Manuale">
+                        <span class="icon">🔄</span> Vira Ora!
+                    </button>
+
+                    <div class="slider-container">
+                        <span class="time-label" id="current-time">13:48:40</span>
+                        <input type="range" id="time-slider" min="0" max="100" value="0" class="progress-slider">
+                        <span class="time-label" id="end-time">13:55:00</span>
+                    </div>
+
+                    <div class="speed-selector">
+                        <label for="speed-mult">Velocità</label>
+                        <select id="speed-mult" class="select-field">
+                            <option value="1">1x</option>
+                            <option value="2">2x</option>
+                            <option value="5" selected>5x</option>
+                            <option value="10">10x</option>
+                        </select>
+                    </div>
+                </footer>
+            </section>
+
+            <!-- Right Side: Leaderboard & Virtual Tactical Officer Panel -->
+            <aside class="sidebar-section">
+                <!-- Leaderboard Card -->
+                <div class="card leaderboard-card">
+                    <h2 class="card-title">Classifica</h2>
+                    <div class="table-container">
+                        <table class="leaderboard-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Barca</th>
+                                    <th>SOG</th>
+                                    <th>Preferenza</th>
+                                    <th>Segui</th>
+                                </tr>
+                            </thead>
+                            <tbody id="leaderboard-body">
+                                <!-- Populated dynamically by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Tactical Coach Advisor Card (Powered by Qwen) -->
+                <div class="card coach-card">
+                    <div class="card-header-qwen">
+                        <h2 class="card-title">Ufficiale Tattico Virtuale</h2>
+                        <span class="model-badge">Qwen 3.5 4B</span>
+                    </div>
+                    
+                    <!-- Config Controls -->
+                    <div class="config-row">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="chk-all-qwen">
+                            <span class="checkmark"></span>
+                            Usa Qwen per tutti i bot (più lento)
+                        </label>
+                    </div>
+
+                    <div class="coach-content" id="coach-panel-content">
+                        <div class="no-advice">Seleziona una barca e avvia la regata per ricevere consigli tattici in tempo reale.</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Script loading -->
+    <script src="/static/app.js"></script>
+</body>
+</html>
