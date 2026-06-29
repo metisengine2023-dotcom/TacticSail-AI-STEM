@@ -4,6 +4,14 @@ TacticalSail AI STEM is a data-driven 2D sailing race simulator for ILCA 4 tacti
 
 The project turns real GPS race tracks into AI-controlled virtual sailors. Each bot is built from a real athlete profile, a local tactical decision engine, and a wind model trained from Garda race data. The goal is educational: show young sailors why a tactical choice worked, where they lost VMG, and how wind shifts, pressure, laylines, dirty air, and maneuver timing change the race.
 
+## Project Status
+
+This is a public hackathon prototype that we built in about 3 days.
+
+We do not yet know whether we will continue the project after the hackathon, but we wanted to publish it so other people can inspect it, try it, and give feedback.
+
+If you find something interesting, confusing, or broken, please open an issue or send feedback.
+
 ## Demo
 
 Run the local web demo:
@@ -29,6 +37,8 @@ Current automated readiness:
 ```
 
 This is not presented as a finished product. It is a measured prototype with visible strengths and visible limits.
+
+It is intentionally shared as an early-stage public build, not as a polished commercial release.
 
 What is already working:
 
